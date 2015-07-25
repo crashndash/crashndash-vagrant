@@ -29,14 +29,13 @@ This will install and start the virtual machine for you.
 
 Once the setup completes you can access the machine by using the following command:
 
-`$ vagrant up`
+`$ vagrant ssh`
 
 ## Install and start the server
 
-Enter the directory of the server. If you used the recommended folder structure, this will now be in /server of the virtual machine.
+You should now be taken to the directory of the multiplayer server (`/server`). Proceed with installing the dependencies for the project, and starting the server.
 
 ```
-$ cd /server
 $ npm install   # Installs the dependencies.
 $ node index.js # Starts the server.
 ```

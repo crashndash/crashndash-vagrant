@@ -16,3 +16,6 @@ apt-get update
 
 # Install some stuff.
 apt-get install build-essential vim git nodejs redis-server curl -y
+
+# Go to server directory on login.
+echo "cd /server" >> /home/vagrant/.bashrc
